@@ -840,11 +840,15 @@ body {
 
 
 @media (max-width:600px) {
+    body
+    {
+        overflow-x:auto;
+    }
 
     #loader {
         height: 100%;
         width: 100%;
-        position: fixed;
+        position:static;
         z-index: 999999;
         background-color: #030303;
         padding: 25vh 5vw;
