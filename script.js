@@ -216,7 +216,7 @@ function footerAnimation() {
 
 loadingAnimation();
 cursorAnimation();
-locomotiveAnimation();
+// locomotiveAnimation();
 sheryAnimation();
 flagAnimation()
 footerAnimation()
